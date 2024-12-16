@@ -41,7 +41,7 @@ const Home = () => {
     // Default to 'products-ACCESSORIES' if no category is provided
     if (!category) {
       console.warn("No category provided. Defaulting to 'products-ACCESSORIES'.");
-      category = 'products-ACCESSORIES';
+      category = 'products-LAPTOPSNEW';
     }
   
     try {
